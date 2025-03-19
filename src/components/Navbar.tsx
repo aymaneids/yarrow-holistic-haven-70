@@ -3,14 +3,13 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Instagram } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  const closeMenu = () => setIsMenuOpen(false);
+  const isMobile = useIsMobile();
 
   // Change navbar style on scroll
   useEffect(() => {
@@ -40,7 +39,7 @@ const Navbar = () => {
     <header
       className={cn(
         "fixed top-0 left-0 w-full z-50 transition-all duration-300 px-6 py-3 md:px-10",
-        scrolled || isMenuOpen
+        scrolled
           ? "bg-white/85 backdrop-blur-lg shadow-sm"
           : "bg-transparent"
       )}
@@ -50,7 +49,6 @@ const Navbar = () => {
         <Link
           to="/"
           className="relative z-50"
-          onClick={closeMenu}
         >
           <h1 className="font-display font-semibold text-2xl sm:text-3xl text-yarrow-leaf hover:text-yarrow-moss transition-colors duration-300">
             Yarrow
@@ -95,59 +93,54 @@ const Navbar = () => {
           </a>
         </nav>
 
-        {/* Mobile Menu Button */}
-        <button
-          onClick={toggleMenu}
-          className="md:hidden relative z-50 p-2 text-yarrow-leaf hover:text-yarrow-moss transition-colors"
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-
-        {/* Mobile Menu */}
-        <div
-          className={cn(
-            "fixed inset-0 bg-white/95 backdrop-blur-lg z-40 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out md:hidden",
-            isMenuOpen ? "transform translate-x-0" : "transform translate-x-full"
-          )}
-        >
-          <nav className="flex flex-col items-center justify-center space-y-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                to={link.path}
-                onClick={closeMenu}
-                className={cn(
-                  "text-xl font-medium transition-colors duration-300",
-                  isActive(link.path)
-                    ? "text-yarrow-sage"
-                    : "text-gray-700 hover:text-yarrow-sage"
-                )}
+        {/* Mobile Menu - Using Sheet component */}
+        {isMobile && (
+          <Sheet>
+            <SheetTrigger asChild>
+              <button
+                className="md:hidden relative z-50 p-2 text-yarrow-leaf hover:text-yarrow-moss transition-colors"
+                aria-label="Open menu"
               >
-                {link.name}
-              </Link>
-            ))}
-            
-            <Link 
-              to="/book-now"
-              className="bg-yarrow-sage text-white px-6 py-3 rounded-md text-lg hover:bg-yarrow-moss transition-colors duration-300 mt-4"
-              onClick={closeMenu}
-            >
-              Book Now
-            </Link>
-            
-            <a 
-              href="https://www.instagram.com/yourmanegirlpenny" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 mt-4"
-              aria-label="Instagram"
-              onClick={closeMenu}
-            >
-              <Instagram size={24} />
-            </a>
-          </nav>
-        </div>
+                <Menu size={24} />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="pt-16 bg-white/95 backdrop-blur-lg">
+              <nav className="flex flex-col items-center justify-center space-y-8 mt-8">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.name}
+                    to={link.path}
+                    className={cn(
+                      "text-xl font-medium transition-colors duration-300",
+                      isActive(link.path)
+                        ? "text-yarrow-sage"
+                        : "text-gray-700 hover:text-yarrow-sage"
+                    )}
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+                
+                <Link 
+                  to="/book-now"
+                  className="bg-yarrow-sage text-white px-6 py-3 rounded-md text-lg hover:bg-yarrow-moss transition-colors duration-300 mt-4"
+                >
+                  Book Now
+                </Link>
+                
+                <a 
+                  href="https://www.instagram.com/yourmanegirlpenny" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 mt-4"
+                  aria-label="Instagram"
+                >
+                  <Instagram size={24} />
+                </a>
+              </nav>
+            </SheetContent>
+          </Sheet>
+        )}
       </div>
     </header>
   );
