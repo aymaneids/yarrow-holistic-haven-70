@@ -100,15 +100,13 @@ const Index = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row items-start gap-4">
-              <a
-                href="https://www.vagaro.com/yarrowholisticbeauty"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/book-now"
                 className="bg-yarrow-sage hover:bg-yarrow-moss text-white px-6 py-3 rounded-md transition-all duration-300 font-medium hover:shadow-md inline-flex items-center"
               >
                 Book an Appointment
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </a>
+              </Link>
               
               <Link
                 to="/contact"

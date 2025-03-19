@@ -77,14 +77,12 @@ const Navbar = () => {
             </Link>
           ))}
           
-          <a 
-            href="https://www.vagaro.com/yarrowholisticbeauty" 
-            target="_blank"
-            rel="noopener noreferrer" 
+          <Link 
+            to="/book-now"
             className="bg-yarrow-sage text-white px-4 py-2 rounded-md text-sm hover:bg-yarrow-moss transition-colors duration-300 font-medium"
           >
             Book Now
-          </a>
+          </Link>
           
           <a 
             href="https://www.instagram.com/yourmanegirlpenny" 
@@ -130,15 +128,13 @@ const Navbar = () => {
               </Link>
             ))}
             
-            <a 
-              href="https://www.vagaro.com/yarrowholisticbeauty" 
-              target="_blank"
-              rel="noopener noreferrer" 
+            <Link 
+              to="/book-now"
               className="bg-yarrow-sage text-white px-6 py-3 rounded-md text-lg hover:bg-yarrow-moss transition-colors duration-300 mt-4"
               onClick={closeMenu}
             >
               Book Now
-            </a>
+            </Link>
             
             <a 
               href="https://www.instagram.com/yourmanegirlpenny" 

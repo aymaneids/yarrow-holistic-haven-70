@@ -53,15 +53,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://www.vagaro.com/yarrowholisticbeauty"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-white/80 hover:text-white transition-colors"
-                >
+                <Link to="/book-now" className="text-white/80 hover:text-white transition-colors">
                   Book Online
-                  <ExternalLink className="h-3 w-3 ml-1" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -89,14 +83,12 @@ const Footer = () => {
             <p className="text-white/80 mb-4">
               Ready to experience the Yarrow difference? Book your appointment online for an eco-friendly hair service that nurtures you and the planet.
             </p>
-            <a
-              href="https://www.vagaro.com/yarrowholisticbeauty"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/book-now"
               className="inline-block bg-white text-yarrow-sage px-6 py-2.5 rounded-md hover:bg-yarrow-cream transition-colors duration-300 font-medium"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
 

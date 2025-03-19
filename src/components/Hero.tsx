@@ -44,14 +44,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="https://www.vagaro.com/yarrowholisticbeauty"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/book-now"
               className="bg-yarrow-sage hover:bg-yarrow-moss text-white px-8 py-3 rounded-md transition-all duration-300 text-lg font-medium border border-transparent hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-yarrow-sage focus:ring-offset-2 hover-scale"
             >
               Book an Appointment
-            </a>
+            </Link>
             
             <Link
               to="/services"
