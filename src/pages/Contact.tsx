@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import { MapPin, Clock, Instagram, ArrowRight } from "lucide-react";
 
@@ -18,7 +17,7 @@ const Contact = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-display font-semibold text-gray-800 mb-6">
-            Contact Yarrow Holistic Beauty
+            Contact CURED Nails Nashville
           </h1>
           
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">
@@ -41,7 +40,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-medium text-xl text-gray-800 mb-2">Our Location</h3>
                   <address className="not-italic text-gray-600 text-lg">
-                    1334 Ashley River Road<br />Charleston, SC 29407
+                    123 Main Street<br />Nashville, TN 37201
                   </address>
                 </div>
               </div>
@@ -63,12 +62,12 @@ const Contact = () => {
                 <div>
                   <h3 className="font-medium text-xl text-gray-800 mb-2">Social Media</h3>
                   <a
-                    href="https://www.instagram.com/yourmanegirlpenny"
+                    href="https://www.instagram.com/aymane_idsidibaha/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium text-lg"
                   >
-                    @yourmanegirlpenny
+                    @aymane_idsidibaha
                   </a>
                 </div>
               </div>
@@ -77,7 +76,7 @@ const Contact = () => {
             <div className="mt-10">
               <h3 className="font-medium text-xl text-gray-800 mb-4">Book an Appointment</h3>
               <p className="text-gray-600 mb-6">
-                Ready to experience holistic beauty at Yarrow? Book your appointment online through our Vagaro scheduling system.
+                Ready to experience holistic beauty at CURED? Book your appointment online through our scheduling system.
               </p>
               <a
                 href="https://www.vagaro.com/yarrowholisticbeauty"
@@ -100,7 +99,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Yarrow Holistic Beauty Location"
+              title="CURED Nails Nashville Location"
             ></iframe>
           </div>
         </div>

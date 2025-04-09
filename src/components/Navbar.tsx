@@ -83,7 +83,7 @@ const Navbar = () => {
           </Link>
           
           <a 
-            href="https://www.instagram.com/curednails" 
+            href="https://www.instagram.com/aymane_idsidibaha/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300"
@@ -129,7 +129,7 @@ const Navbar = () => {
                 </Link>
                 
                 <a 
-                  href="https://www.instagram.com/curednails" 
+                  href="https://www.instagram.com/aymane_idsidibaha/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 mt-4"

@@ -17,14 +17,14 @@ const Footer = () => {
               Nashville's premier non-toxic nail salon dedicated to holistic, organic, and sustainable beauty practices.
             </p>
             <a
-              href="https://www.instagram.com/curednails"
+              href="https://www.instagram.com/aymane_idsidibaha/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-white hover:text-yarrow-cream transition-colors"
               aria-label="Instagram"
             >
               <Instagram className="h-5 w-5 mr-2" />
-              @curednails
+              @aymane_idsidibaha
             </a>
           </div>
 
