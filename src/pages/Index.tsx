@@ -36,12 +36,12 @@ const Index = () => {
           </h2>
           
           <p className="text-white/90 max-w-2xl mx-auto mb-10">
-            We're honored to be part of our clients' beauty journeys. Here's what they have to say about their Yarrow experience.
+            We're honored to be part of our clients' beauty journeys. Here's what they have to say about their CURED experience.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <TestimonialCard 
-              quote="Penny transformed not just my hair, but my entire approach to beauty. The organic color left my hair feeling healthier than ever before!"
+              quote="CURED transformed not just my nails, but my entire approach to beauty. The organic products left my nails feeling healthier than ever before!"
               author="Sarah W."
               className="animate-slideUp [animation-delay:100ms]"
             />
@@ -51,7 +51,7 @@ const Index = () => {
               className="animate-slideUp [animation-delay:200ms]"
             />
             <TestimonialCard 
-              quote="My scalp has never felt better since switching to Yarrow. Penny truly understands holistic hair care and the results speak for themselves."
+              quote="My nails have never felt better since switching to CURED. They truly understand holistic nail care and the results speak for themselves."
               author="Jamie L."
               className="animate-slideUp [animation-delay:300ms]"
             />
@@ -64,7 +64,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
           <div className="animate-slideInLeft">
             <div className="inline-block px-3 py-1 mb-6 rounded-full bg-yarrow-sage/10 border border-yarrow-sage/20 text-yarrow-sage text-xs uppercase tracking-wider font-medium">
-              Visit Yarrow
+              Visit CURED
             </div>
             
             <h2 className="text-3xl md:text-4xl font-display font-semibold text-gray-800 mb-6">
@@ -72,7 +72,7 @@ const Index = () => {
             </h2>
             
             <p className="text-gray-600 mb-8 leading-relaxed">
-              We'd love to welcome you to our sustainable salon suite in Charleston. Schedule your visit today and discover the Yarrow difference.
+              We'd love to welcome you to our sustainable nail salon in Nashville. Schedule your visit today and discover the CURED difference.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -81,7 +81,7 @@ const Index = () => {
                 <div>
                   <h3 className="font-medium text-gray-800 mb-1">Our Location</h3>
                   <address className="not-italic text-gray-600">
-                    1334 Ashley River Road<br />Charleston, SC 29407
+                    123 Main Street<br />Nashville, TN 37201
                   </address>
                 </div>
               </div>
@@ -120,14 +120,14 @@ const Index = () => {
           
           <div className="h-[400px] md:h-full rounded-lg overflow-hidden shadow-lg animate-slideInRight">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.1703968503985!2d-80.03273048482711!3d32.82182478096075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fe7c5acb7e2f1d%3A0x7caee99b43a847f0!2s1334%20Ashley%20River%20Rd%2C%20Charleston%2C%20SC%2029407%2C%20USA!5e0!3m2!1sen!2sus!4v1651248737956!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206157.74415965372!2d-86.93990445000002!3d36.16231140000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864ec3213eb903d%3A0x7d3fb9d0a1e9daa0!2sNashville%2C%20TN!5e0!3m2!1sen!2sus!4v1716996061055!5m2!1sen!2sus" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Yarrow Holistic Beauty Location"
+              title="CURED Nails Nashville Location"
             ></iframe>
           </div>
         </div>

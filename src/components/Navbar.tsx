@@ -51,10 +51,10 @@ const Navbar = () => {
           className="relative z-50"
         >
           <h1 className="font-display font-semibold text-2xl sm:text-3xl text-yarrow-leaf hover:text-yarrow-moss transition-colors duration-300">
-            Yarrow
+            CURED
           </h1>
           <p className="text-xs -mt-1 text-yarrow-stone tracking-wider font-medium">
-            HOLISTIC BEAUTY
+            NAILS NASHVILLE
           </p>
         </Link>
 
@@ -83,7 +83,7 @@ const Navbar = () => {
           </Link>
           
           <a 
-            href="https://www.instagram.com/yourmanegirlpenny" 
+            href="https://www.instagram.com/curednails" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300"
@@ -129,7 +129,7 @@ const Navbar = () => {
                 </Link>
                 
                 <a 
-                  href="https://www.instagram.com/yourmanegirlpenny" 
+                  href="https://www.instagram.com/curednails" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 mt-4"

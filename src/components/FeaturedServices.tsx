@@ -32,26 +32,26 @@ const FeaturedServices = () => {
   const services = [
     {
       icon: <Scissors className="h-6 w-6" />,
-      title: "Organic Hair Color",
-      description: "Experience rich, vibrant color with our organic, non-toxic hair color systems that nourish while they transform.",
+      title: "Organic Manicures",
+      description: "Experience luxurious, non-toxic manicures using our organic, plant-based products that nourish while they beautify.",
       delay: 100
     },
     {
       icon: <Scissors className="h-6 w-6" />,
-      title: "Hair Cutting",
-      description: "Precision cuts tailored to your hair type, face shape, and lifestyle, using sustainable practices and products.",
+      title: "Natural Pedicures",
+      description: "Rejuvenate your feet with our holistic pedicure treatments using natural exfoliants and organic polishes.",
       delay: 200
     },
     {
       icon: <Droplet className="h-6 w-6" />,
-      title: "Hair & Scalp Care",
-      description: "Therapeutic treatments to restore balance and health to your hair and scalp using natural, clean ingredients.",
+      title: "Nail & Cuticle Care",
+      description: "Therapeutic treatments to restore balance and health to your nails and cuticles using natural, clean ingredients.",
       delay: 300
     },
     {
       icon: <Heart className="h-6 w-6" />,
       title: "Sustainable Products",
-      description: "Curated selection of clean, cruelty-free, eco-conscious hair care products for home maintenance.",
+      description: "Curated selection of clean, cruelty-free, eco-conscious nail care products for home maintenance.",
       delay: 400
     }
   ];
@@ -64,11 +64,11 @@ const FeaturedServices = () => {
         </div>
         
         <h2 className="text-3xl md:text-4xl font-display font-semibold text-gray-800 mb-6">
-          Holistic Hair Care Services
+          Holistic Nail Care Services
         </h2>
         
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Every service at Yarrow is thoughtfully designed to enhance your natural beauty while minimizing environmental impact.
+          Every service at CURED is thoughtfully designed to enhance your natural beauty while minimizing environmental impact.
         </p>
       </div>
       

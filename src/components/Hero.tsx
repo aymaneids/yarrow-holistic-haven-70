@@ -32,15 +32,15 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 md:px-10">
         <div className="max-w-3xl animate-slideDown">
           <div className="inline-block px-4 py-1 mb-4 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white text-xs uppercase tracking-wider font-medium">
-            Charleston's Non-Toxic Salon Suite
+            Nashville's Non-Toxic Nail Salon
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-semibold text-white mb-4 md:mb-6 text-shadow leading-tight">
-            Healthy Hair for You and Our Planet
+            Healthy Nails for You and Our Planet
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Experience the intersection of beauty and sustainability at Yarrow Holistic Beauty, where organic hair care meets eco-conscious practices.
+            Experience the intersection of beauty and sustainability at CURED Nails Nashville, where organic nail care meets eco-conscious practices.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -63,7 +63,7 @@ const Hero = () => {
               to="/about"
               className="group text-white hover:text-yarrow-cream transition-colors duration-300 text-lg font-medium flex items-center underline underline-offset-4"
             >
-              Meet Penny
+              About Us
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

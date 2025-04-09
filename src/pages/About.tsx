@@ -34,12 +34,12 @@ const About = () => {
             </h1>
             
             <p className="text-gray-600 mb-8 leading-relaxed">
-              At Yarrow Holistic Beauty, we believe that true beauty stems from health—both yours and the planet's. Our commitment to holistic, sustainable beauty practices guides everything we do, from the products we choose to the services we provide.
+              At CURED Nails Nashville, we believe that true beauty stems from health—both yours and the planet's. Our commitment to holistic, sustainable beauty practices guides everything we do, from the products we choose to the services we provide.
             </p>
             
             <div className="flex flex-col sm:flex-row items-start gap-4">
               <a
-                href="https://www.vagaro.com/yarrowholisticbeauty"
+                href="https://www.vagaro.com/curednailsnashville"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yarrow-sage hover:bg-yarrow-moss text-white px-6 py-3 rounded-md transition-all duration-300 font-medium hover:shadow-md inline-flex items-center"
@@ -68,16 +68,16 @@ const About = () => {
         </div>
       </section>
       
-      {/* Meet Penny */}
+      {/* Meet Our Team */}
       <section className="py-20 px-6 md:px-10 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <div className="inline-block px-3 py-1 mb-6 rounded-full bg-yarrow-sage/10 border border-yarrow-sage/20 text-yarrow-sage text-xs uppercase tracking-wider font-medium">
-              Meet Your Stylist
+              Meet Our Team
             </div>
             
             <h2 className="text-3xl md:text-4xl font-display font-semibold text-gray-800 mb-6">
-              Your Mane Girl Penny
+              The CURED Team
             </h2>
           </div>
           
@@ -85,26 +85,26 @@ const About = () => {
             <div className="order-2 md:order-1">
               <img
                 src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"
-                alt="Penny, hair stylist and owner of Yarrow Holistic Beauty"
+                alt="CURED Nails Nashville team"
                 className="w-full h-[600px] object-cover rounded-lg shadow-md hover-lift"
               />
             </div>
             
             <div className="order-1 md:order-2">
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Welcome! I'm Penny, the creator and stylist behind Yarrow Holistic Beauty. My journey into holistic beauty began from a deep passion for both artistry and sustainability—finding ways to create beautiful hairstyles while honoring the health of my clients and our environment.
+                Welcome! We're the creators and nail technicians behind CURED Nails Nashville. Our journey into holistic beauty began from a deep passion for both artistry and sustainability—finding ways to create beautiful nail designs while honoring the health of our clients and our environment.
               </p>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
-                With over a decade of experience in the beauty industry, I became increasingly aware of the harmful chemicals prevalent in traditional salon products. This realization led me to specialize in organic, non-toxic hair care and to create Yarrow—a holistic oasis where beauty and wellness coexist.
+                With years of experience in the beauty industry, we became increasingly aware of the harmful chemicals prevalent in traditional salon products. This realization led us to specialize in organic, non-toxic nail care and to create CURED—a holistic oasis where beauty and wellness coexist.
               </p>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
-                I believe that beauty should never come at the expense of health. Every service at Yarrow is performed with this philosophy in mind, using products that are sustainable, clean, non-toxic, cruelty-free, organic, and eco-conscious.
+                We believe that beauty should never come at the expense of health. Every service at CURED is performed with this philosophy in mind, using products that are sustainable, clean, non-toxic, cruelty-free, organic, and eco-conscious.
               </p>
               
               <p className="text-gray-600 mb-10 leading-relaxed">
-                My approach is personalized and educational—I love helping clients understand how to maintain their hair health naturally and make choices that align with their values. I'm excited to be part of your holistic beauty journey!
+                Our approach is personalized and educational—we love helping clients understand how to maintain their nail health naturally and make choices that align with their values. We're excited to be part of your holistic beauty journey!
               </p>
               
               <div className="flex items-center">
@@ -114,12 +114,12 @@ const About = () => {
                   className="w-6 h-6 mr-3"
                 />
                 <a
-                  href="https://www.instagram.com/yourmanegirlpenny"
+                  href="https://www.instagram.com/curednails"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium"
                 >
-                  @yourmanegirlpenny
+                  @curednails
                 </a>
               </div>
             </div>
@@ -136,7 +136,7 @@ const About = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-display font-semibold text-gray-800 mb-6">
-              What Sets Yarrow Apart
+              What Sets CURED Apart
             </h2>
             
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -148,7 +148,7 @@ const About = () => {
             <ValueCard 
               icon={<Leaf className="h-6 w-6" />}
               title="Holistic Approach"
-              description="We consider your overall wellbeing, not just your hair's appearance, in every service we provide."
+              description="We consider your overall wellbeing, not just your nails' appearance, in every service we provide."
             />
             <ValueCard 
               icon={<Heart className="h-6 w-6" />}
@@ -174,16 +174,16 @@ const About = () => {
         <div className="absolute inset-0 bg-yarrow-moss/90"></div>
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl font-display font-semibold text-white mb-6">
-            Ready to Experience the Yarrow Difference?
+            Ready to Experience the CURED Difference?
           </h2>
           
           <p className="text-white/90 mb-10 leading-relaxed">
-            Join us for a hair care experience that nurtures your beauty while respecting our planet. Book your appointment today and become part of our holistic beauty community.
+            Join us for a nail care experience that nurtures your beauty while respecting our planet. Book your appointment today and become part of our holistic beauty community.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a
-              href="https://www.vagaro.com/yarrowholisticbeauty"
+              href="https://www.vagaro.com/curednailsnashville"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white hover:bg-yarrow-cream text-yarrow-moss px-8 py-3 rounded-md transition-all duration-300 text-lg font-medium hover:shadow-lg inline-flex items-center"
