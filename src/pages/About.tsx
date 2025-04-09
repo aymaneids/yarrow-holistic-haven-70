@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import { Leaf, Recycle, Heart, ShieldCheck, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -114,12 +113,12 @@ const About = () => {
                   className="w-6 h-6 mr-3"
                 />
                 <a
-                  href="https://www.instagram.com/curednails"
+                  href="https://www.instagram.com/aymane_idsidibaha/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium"
                 >
-                  @curednails
+                  @aymane_idsidibaha
                 </a>
               </div>
             </div>
